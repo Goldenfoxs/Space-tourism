@@ -1,0 +1,148 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "SF-Pro_Display-Bold" ;
+    src: url(../fonts/SF-Pro-Display-Bold.woff) format('woff');
+    src: url(../fonts/SF-Pro-Display-Bold.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: "spaceagecyrillic-regular";
+    src: url(../fonts/spaceagecyrillic-regular.woff) format('woff');
+    src: url(../fonts/spaceagecyrillic-regular.ttf) format('ttf');
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: "SF-Pro_Display-Bold";
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header{
+    background-image: url(../images/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    min-height: 100vh;
+
+}
+
+.menu__list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.menu__list__variant{
+    display: flex;
+    justify-content: space-around;
+    width: 578px;
+}
+
+.menu__list-text{
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+}
+
+.menu__list-text_main{
+    font-size: 18px;
+    line-height: 25px;
+    color: red;
+}
+
+.phone_link{
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+    padding-right: 60px;
+    position: relative;
+    text-align: center;
+}
+
+.phone_link::after{
+    content: "";
+    position: absolute;
+    background-image: url(../images/helmet.png);
+    right: 0;
+    top: -2;
+    height: 30px;
+    width: 30px;
+}
+
+.header__content-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: calc(100vh - 110px);
+}
+
+.header__title{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-title{
+    font-size: 60px;
+    font-family: "spaceagecyrillic-regular";
+    color: white;
+    line-height: 82px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.main-toursim{
+    font-size: 110px;
+}
+
+.main-title-text{
+    font-size: 24px;
+    line-height: 31px;
+    color: white;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.main__button{
+    width: 600px;
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+    line-height: 31px;
+    border: 1px white solid;
+    cursor: pointer;
+    font-family: "SF-Pro_Display-Bold";
+}
+
+.header__description{
+    display: flex;
+    gap: 52px;
+    justify-content: end;
+}
+
+.header__description-text{
+    color: white;
+    width: 140px;
+    font-size: 14px;
+    line-height: 18px;
+}
