@@ -29,8 +29,25 @@ a{
     text-decoration: none;
 }
 
+.title{
+    color: white;
+    font-size: 48px;
+    font-family: "spaceagecyrillic-regular";
+}
+
+.button{
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+    line-height: 31px;
+    border: 1px white solid;
+    cursor: pointer;
+    font-family: "SF-Pro_Display-Bold";
+}
+
 .container{
-    max-width: 1170px;
+    max-width: 1180px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -61,11 +78,10 @@ a{
     font-size: 18px;
     line-height: 25px;
     color: white;
+    transition: all 0.3s
 }
 
-.menu__list-text_main{
-    font-size: 18px;
-    line-height: 25px;
+.menu__list-text:hover{
     color: red;
 }
 
@@ -145,4 +161,123 @@ a{
     width: 140px;
     font-size: 14px;
     line-height: 18px;
+}
+
+.about{
+    background-image: url(../images/about-bg.jpg);
+}
+
+.about__inner{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+    
+}
+
+.about-title{
+    line-height: 38px;
+    font-size: 38px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about__inner-title{
+    font-size: 30px;
+    line-height: 30px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.about__inner-subtitle{
+    color: blue;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.about__content-text{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.about__content-text p{
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    width: 165px;
+    margin-right: 50px;
+}
+
+.about__content-text p:nth-last-child(-n + 1){
+    margin-right: 0px;
+}
+
+.about-table{
+    color: white;
+    margin-bottom: 50px;
+}
+
+.about__table-tr{
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+}
+
+.about-table-td{
+    padding:10px 15px;
+    text-align: center;
+}
+
+.about__table-tr + .about__table-tr{
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.about-table-td span{
+    font-size: 14px;
+    line-height: 17px;
+    display: block;
+}
+
+.about-button{
+    font-size: 18px;
+    line-height: 23px;
+    width: 300px;
+}
+
+
+
+.zabronirovat{
+    background-image: url(../images/zabronirovat.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.zabronirovat__inner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.zabronirovat-right{
+    display: flex;
+}
+
+.zabronirovat__title{
+    color: white;
+    font-size: 48px;
+    font-family: "spaceagecyrillic-regular";
+    max-width: 576px;
+}
+
+.zabronirovat__text{
+    color: white;
+    font-size: 14px;
+    width: 170px;
+    margin-left: 26px;
+    margin-right: 26px;
 }
