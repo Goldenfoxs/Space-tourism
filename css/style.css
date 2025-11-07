@@ -170,14 +170,26 @@ a{
 .about__inner{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 150px;
-    
+    padding-bottom: 150px; 
+}
+
+.about__inner2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-bottom: 150px; 
 }
 
 .about-title{
     line-height: 38px;
     font-size: 38px;
     padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about-title2{
+    line-height: 38px;
+    font-size: 38px;
     margin-bottom: 100px;
 }
 
@@ -217,6 +229,11 @@ a{
     margin-bottom: 50px;
 }
 
+.about-table2{
+    color: white;
+    margin-bottom: 20px;
+}
+
 .about__table-tr{
     border: 1px solid white;
     border-left: none;
@@ -238,6 +255,13 @@ a{
     font-size: 14px;
     line-height: 17px;
     display: block;
+}
+
+.about-text-2{
+    color: white;
+    font-size: 12px;
+    line-height: 14px;
+    padding-bottom: 50px;
 }
 
 .about-button{
