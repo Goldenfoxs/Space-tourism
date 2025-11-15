@@ -170,7 +170,7 @@ a{
 .about__inner{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 150px; 
+    padding-bottom: 121px; 
 }
 
 .about__inner2{
@@ -304,4 +304,100 @@ a{
     width: 170px;
     margin-left: 26px;
     margin-right: 26px;
+}
+
+.how-to{
+    background-image: url(../images/how-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.how-to-title{
+    width: 578px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+}
+
+.how-to__box{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.how-to__box-item{
+    color: white;
+    font-size: 18px;
+    font-family: "SF-Pro_Display-Bold";
+}
+
+.how-to__box circle,
+.how-to__box text,
+.how-to__box g foreignObject{
+    transition: all 0.5s;
+}
+
+.how-to__box g:hover circle{
+r: 20px;
+fill: #036CCA;
+}
+
+.how-to__box g:hover text{
+font-size: 36px;
+fill: #036CCA;
+}
+
+.how-to__box g foreignObject{
+    color: white;
+    font-size: 18px;
+    font-family: "SF-Pro_Display-Bold"; 
+    text-align: left;   
+}
+
+.how-to__box g:hover foreignObject{
+    color: #036CCA;
+    font-size: 22px;    
+}
+
+.slider{
+    background-color: #F8F6FA;
+    padding-bottom: 110px ;
+    padding-top: 100px;
+    background-image: url(../images/Phon.png);
+}
+
+.slider__inner{
+    display: flex;
+    justify-content: center;
+    border: white solid 2px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-left: 200px;
+    /* width: 1200px; */
+}
+
+/* .slider__img{
+    padding-left: 200px;
+} */
+
+.slick-next{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 45%;
+    right: 80px;
+}
+
+.slick-prev{
+    border: none;
+    background-color: transparent;
+    position: absolute; 
+    top: 45%;
+    left: 80px;
+}
+
+.slider__text{
+    font-size: 24px;
+    line-height: 30px;
+    font-family: "spaceagecyrillic-regular";
+    color: white;
+    text-align: center;
 }
