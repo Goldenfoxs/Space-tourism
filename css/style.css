@@ -404,9 +404,25 @@ fill: #036CCA;
     top: -30px;
 }
 
+.price-price::after{
+    content: "";
+    position: absolute;
+    width: 68px;
+    height: 1px;
+    background-color: red;
+    transform: rotate(15deg);
+    top: -15px;
+    right: -10px;
+}
+
 .price-button{
     width: 500px;
     margin-bottom: 142px;
+}
+
+.additional-services{
+    display: flex;
+    justify-content: space-between;
 }
 
 .additional__title{
@@ -418,6 +434,54 @@ fill: #036CCA;
     color: #F8F6FA;
     font-size: 24px;
     margin-bottom: 25px;
+}
+.additional__text{
+    color: #F8F6FA;
+    font-size: 24px;
+}
+
+.additional__text p{
+    padding-bottom: 25px;
+}
+
+.additional__variant1{
+    padding-left: 30px;
+    position: relative;
+    padding-bottom: 5px;
+    font-size: 24px;
+}
+
+.additional__variant1::before{
+    content: "";
+    background-image: url(../images/Ellipse-2.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.additional__container__button{
+    width: 500px;
+}
+
+.additional__button{
+    width: 500px;
+}
+
+.additional__button-first{
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.additional__button-first::before{
+    content: "";
+    background-image: url(../images/astronaut.png);
+    position: absolute;
+    width: 192px;
+    height: 150px;
+    bottom: 40px;
+    right: 0;
 }
 
 .little-text{
@@ -549,4 +613,50 @@ fill: #036CCA;
 .contacts__img{
     width: 396px;
     height: 396px;
+}
+
+.footer{
+    content: "";
+    background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    height: 433px;
+}
+
+.footer__inner{
+    display: flex;
+    justify-content: end;
+    padding-top: 100px;
+}
+
+.footer__item{
+    color: white;
+    width: 165px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer__item-text{
+    padding-bottom: 48px;
+}
+
+.footer__list-text{
+    font-size: 16px;
+    line-height: 25px;
+    color: white;
+    transition: all 0.3s;
+    
+}
+
+.footer__list__item{
+    padding-bottom: 20px    
+}
+
+.footer__list-text:hover{
+    color: red;
+}
+
+.footer-container{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
 }
